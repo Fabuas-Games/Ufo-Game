@@ -13,33 +13,33 @@ MonoBehaviour:
   m_Name: CharacterShopDatabase
   m_EditorClassIdentifier: 
   characters:
-  - image: {fileID: 21300000, guid: a09e4cec7b0672849ac6400046c94083, type: 3}
+  - image: {fileID: 21300000, guid: 10df009103a62ab488a7782cab37e98b, type: 3}
     name: Uzay Gemisi 1
-    speed: 18
+    speed: 15
     power: 15
     price: 0
     isPurchased: 1
-  - image: {fileID: 21300000, guid: 9f0b265a2b0a5ec41828ab0580870123, type: 3}
+  - image: {fileID: 21300000, guid: a8d8e203eec40f440b310fffc526940f, type: 3}
     name: Uzay gemsi 2
-    speed: 6
+    speed: 20
     power: 20
     price: 250
     isPurchased: 1
-  - image: {fileID: 21300000, guid: 99116b0281624c7469ae8bff9b90bd30, type: 3}
+  - image: {fileID: 21300000, guid: e9d40fad0df79c646be368af88e1f265, type: 3}
     name: Uzay Gemisi 3
-    speed: 68
-    power: 26
+    speed: 25
+    power: 25
     price: 369
     isPurchased: 0
-  - image: {fileID: 21300000, guid: b80e239b35050f64dbb5b37f89529cea, type: 3}
+  - image: {fileID: 21300000, guid: 9843ebf3ffc874d4b8c7b96156b8ad4b, type: 3}
     name: Uzay Gemisi 4
-    speed: 40
-    power: 41
+    speed: 30
+    power: 30
     price: 400
     isPurchased: 0
-  - image: {fileID: 21300000, guid: 6c6a56bda5c848c4f9e06b69c8f9c8aa, type: 3}
+  - image: {fileID: 21300000, guid: 0719262262c860842a9c498fd1103363, type: 3}
     name: Uzay Gemisi 5
-    speed: 61
-    power: 57
+    speed: 35
+    power: 35
     price: 489
     isPurchased: 0
