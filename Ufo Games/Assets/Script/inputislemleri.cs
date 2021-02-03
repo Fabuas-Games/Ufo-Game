@@ -9,12 +9,13 @@ public class inputislemleri : MonoBehaviour
 {
     [SerializeField] SpriteRenderer playerImage;
     [SerializeField] TMP_Text playerNameText;
+    [SerializeField] float moveSpeed;
 
 
     private const int V = 90;
     public Quaternion target;
     private Rigidbody2D rb;
-    private float dirX, dirY, dirZ, moveSpeed;
+    private float dirX, dirY, dirZ;
     ParticleSystem parct;
 
     public float yRotation;
@@ -39,7 +40,7 @@ public class inputislemleri : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        moveSpeed = 15f;
+        /* moveSpeed = 15f;*/
         // parct = Ge1tComponentInChildren<ParticleSystem>().
         //GetComponentInChildren<ParticleSystem>(Effector2D).e
         ChangePlayerSkin();
@@ -59,6 +60,7 @@ public class inputislemleri : MonoBehaviour
             engineIsON = false;
             playerImage.sprite = character.image;
             playerNameText.text = character.name;
+            moveSpeed = character.speed;
         }
     }
 

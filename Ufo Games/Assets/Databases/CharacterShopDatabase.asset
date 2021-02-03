@@ -21,13 +21,13 @@ MonoBehaviour:
     isPurchased: 1
   - image: {fileID: 21300000, guid: 9f0b265a2b0a5ec41828ab0580870123, type: 3}
     name: Uzay gemsi 2
-    speed: 23
+    speed: 6
     power: 20
     price: 250
     isPurchased: 1
   - image: {fileID: 21300000, guid: 99116b0281624c7469ae8bff9b90bd30, type: 3}
     name: Uzay Gemisi 3
-    speed: 28
+    speed: 68
     power: 26
     price: 369
     isPurchased: 0
